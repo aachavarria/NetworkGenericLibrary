@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F16192E267E5DDF002F98F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F16192D267E5DDF002F98F5 /* Post.swift */; };
 		18A9BB099348A59AFC4A252D /* Pods_NetworkGenericLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3BF65A53237B810C4ED7F4 /* Pods_NetworkGenericLibrary_Tests.framework */; };
 		3DEC4D6EADBA4076CC6D4728 /* Pods_NetworkGenericLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96BFF01BA5751423B811435 /* Pods_NetworkGenericLibrary_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -28,7 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C2400B0EC814702703F4181 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F16192D267E5DDF002F98F5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3C2400B0EC814702703F4181 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3C3BF65A53237B810C4ED7F4 /* Pods_NetworkGenericLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkGenericLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4345FCAD99B822A94C12184E /* Pods-NetworkGenericLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGenericLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-NetworkGenericLibrary_Example/Pods-NetworkGenericLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		46532D9FF5658EE7450D7465 /* Pods-NetworkGenericLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGenericLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-NetworkGenericLibrary_Tests/Pods-NetworkGenericLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		607FACE51AFB9204008FA782 /* NetworkGenericLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkGenericLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9D8E915938F327448DB4A320 /* NetworkGenericLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetworkGenericLibrary.podspec; path = ../NetworkGenericLibrary.podspec; sourceTree = "<group>"; };
+		9D8E915938F327448DB4A320 /* NetworkGenericLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkGenericLibrary.podspec; path = ../NetworkGenericLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B96BFF01BA5751423B811435 /* Pods_NetworkGenericLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkGenericLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9E2BEAC5D576510A5C9DA7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D9E2BEAC5D576510A5C9DA7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				0F16192D267E5DDF002F98F5 /* Post.swift */,
 			);
 			name = "Example for NetworkGenericLibrary";
 			path = NetworkGenericLibrary;
@@ -156,7 +159,6 @@
 				54D0ACC1B53ABC89DD803507 /* Pods-NetworkGenericLibrary_Tests.debug.xcconfig */,
 				46532D9FF5658EE7450D7465 /* Pods-NetworkGenericLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F16192E267E5DDF002F98F5 /* Post.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

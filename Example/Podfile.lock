@@ -1,0 +1,16 @@
+PODS:
+  - NetworkGenericLibrary (0.1.0)
+
+DEPENDENCIES:
+  - NetworkGenericLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  NetworkGenericLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NetworkGenericLibrary: dcbc2eebe7b5d376752be5f23e5b62ebc90daca6
+
+PODFILE CHECKSUM: 45f57b1ec457dd890ba3a174c2065920487193c8
+
+COCOAPODS: 1.10.1

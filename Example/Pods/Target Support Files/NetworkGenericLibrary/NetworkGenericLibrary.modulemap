@@ -1,0 +1,6 @@
+framework module NetworkGenericLibrary {
+  umbrella header "NetworkGenericLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "NetworkGenericLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of NetworkGenericLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aachavarria/NetworkGenericLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aachavarria": "aronchj7@live.com"
+  },
+  "source": {
+    "git": "https://github.com/aachavarria/NetworkGenericLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NetworkGenericLibrary/Classes/**/*"
+}
