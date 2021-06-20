@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0DC9E028CA22B0DA747FA3E623A287A3 /* NetworkGenericLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52036D5E7C303FC22F87B784B6047925 /* NetworkGenericLibrary-dummy.m */; };
-		0F161928267E5B6B002F98F5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F161927267E5B6B002F98F5 /* Network.swift */; };
-		0F16192A267E5BB4002F98F5 /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F161929267E5BB4002F98F5 /* NetworkGeneric.swift */; };
-		0F16192C267E5BCC002F98F5 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F16192B267E5BCC002F98F5 /* ApiError.swift */; };
+		0F979470267F923B00A1F626 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F97946D267F923B00A1F626 /* Network.swift */; };
+		0F979471267F923B00A1F626 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F97946E267F923B00A1F626 /* ApiError.swift */; };
+		0F979472267F923B00A1F626 /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F97946F267F923B00A1F626 /* NetworkGeneric.swift */; };
 		1AF1878B4982D8644F156BF09CAE6B8F /* Pods-NetworkGenericLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11526AF41D21E1ABC03EA89400BD769A /* Pods-NetworkGenericLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C596385DF7A70581D78EA05E35017E2 /* Pods-NetworkGenericLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128F2A2ED58C62C9DA392830A6DD7DC2 /* Pods-NetworkGenericLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E8FDE673E69CB0FF72DA2912CD8D534 /* Pods-NetworkGenericLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150AD0B66120984A46951129F933FDB2 /* Pods-NetworkGenericLibrary_Tests-dummy.m */; };
@@ -45,9 +45,9 @@
 		07DDDF4FEF215C2EC380F064125E46C2 /* Pods-NetworkGenericLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkGenericLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		095273C68239666621F6370E6D5332AE /* NetworkGenericLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkGenericLibrary-umbrella.h"; sourceTree = "<group>"; };
 		0C0683281CA0B824B7DEB5532F9F1779 /* Pods-NetworkGenericLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkGenericLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F161927267E5B6B002F98F5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		0F161929267E5BB4002F98F5 /* NetworkGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGeneric.swift; sourceTree = "<group>"; };
-		0F16192B267E5BCC002F98F5 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		0F97946D267F923B00A1F626 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = NetworkGenericLibrary/Classes/Network.swift; sourceTree = "<group>"; };
+		0F97946E267F923B00A1F626 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiError.swift; path = NetworkGenericLibrary/Classes/ApiError.swift; sourceTree = "<group>"; };
+		0F97946F267F923B00A1F626 /* NetworkGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkGeneric.swift; path = NetworkGenericLibrary/Classes/NetworkGeneric.swift; sourceTree = "<group>"; };
 		11526AF41D21E1ABC03EA89400BD769A /* Pods-NetworkGenericLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkGenericLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		128F2A2ED58C62C9DA392830A6DD7DC2 /* Pods-NetworkGenericLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkGenericLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		150AD0B66120984A46951129F933FDB2 /* Pods-NetworkGenericLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NetworkGenericLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		2E2FE6670F6128DC0AB9F5531DB361D5 /* NetworkGenericLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				0F16192B267E5BCC002F98F5 /* ApiError.swift */,
-				0F161929267E5BB4002F98F5 /* NetworkGeneric.swift */,
-				0F161927267E5B6B002F98F5 /* Network.swift */,
+				0F97946E267F923B00A1F626 /* ApiError.swift */,
+				0F97946D267F923B00A1F626 /* Network.swift */,
+				0F97946F267F923B00A1F626 /* NetworkGeneric.swift */,
 				5A152A65B39E45EBCC76ED1A89110AA1 /* Pod */,
 				6AB02602CA8262F224417DD59976F0B1 /* Support Files */,
 			);
@@ -323,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					D6E57654DD17D5B5CA19AB79202277F1 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,10 +386,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F979470267F923B00A1F626 /* Network.swift in Sources */,
 				0DC9E028CA22B0DA747FA3E623A287A3 /* NetworkGenericLibrary-dummy.m in Sources */,
-				0F16192C267E5BCC002F98F5 /* ApiError.swift in Sources */,
-				0F16192A267E5BB4002F98F5 /* NetworkGeneric.swift in Sources */,
-				0F161928267E5B6B002F98F5 /* Network.swift in Sources */,
+				0F979472267F923B00A1F626 /* NetworkGeneric.swift in Sources */,
+				0F979471267F923B00A1F626 /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23931579CFC9101DD6CB4FCFFC455447 /* NetworkGenericLibrary.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -481,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02BF5496ED3E12E9837109BE10EE22AC /* NetworkGenericLibrary.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -500,6 +507,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

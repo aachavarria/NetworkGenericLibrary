@@ -26,6 +26,36 @@ class ViewController: UIViewController {
             }
         })
         
+        network?.put(url: "https://jsonplaceholder.typicode.com/posts/1", type: Post.self, object: Post(userId: 1, id: 1, title: "edited", body: "edited")) {
+            result in
+            switch result {
+            case .success(let posts):
+                print(posts)
+            case .failure(let error):
+                print(error)
+            }
+        }
+        
+        network?.post(url: "https://jsonplaceholder.typicode.com/posts", type: Post.self, object: Post(userId: 1, title: "new", body: "new")) {
+            result in
+            switch result {
+            case .success(let posts):
+                print(posts)
+            case .failure(let error):
+                print(error)
+            }
+        }
+        
+        network?.delete(url: "https://jsonplaceholder.typicode.com/posts/1") {
+            result in
+            switch result {
+            case .success(let posts):
+                print(posts)
+            case .failure(let error):
+                print(error)
+            }
+        }
+//
         // Do any additional setup after loading the view, typically from a nib.
     }
 
